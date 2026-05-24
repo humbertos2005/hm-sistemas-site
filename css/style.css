@@ -899,6 +899,33 @@ ul { list-style: none; }
     margin: 0 32px 32px;
 }
 
+/* Bloco incluso em todos os planos */
+.planos__incluso {
+    background: var(--navy-dark);
+    border-radius: var(--radius-md);
+    padding: 32px 40px;
+    margin-bottom: 40px;
+}
+.planos__incluso-title {
+    color: var(--gold);
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+.planos__incluso-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 40px;
+}
+.planos__incluso-grid span {
+    color: rgba(255,255,255,0.85);
+    font-size: 0.9rem;
+}
+@media (max-width: 640px) {
+    .planos__incluso-grid { grid-template-columns: 1fr; }
+    .planos__incluso { padding: 24px 20px; }
+}
+
 .plano__price-period {
     font-size: 0.75rem;
     font-weight: 400;
