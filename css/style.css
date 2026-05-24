@@ -895,15 +895,13 @@ ul { list-style: none; }
 }
 .plano__features li:last-child { border-bottom: none; }
 
+.plano__header {
+    flex: 1;
+}
 .card--plano .btn {
-    margin: 0 32px 32px;
-}
-.card--plano .plano__btn {
-    margin-top: auto;
-}
-.plano__desconto--vazio {
-    height: 32px;
-    visibility: hidden;
+    margin: 16px 32px 32px;
+    display: block;
+    text-align: center;
 }
 
 /* Bloco incluso em todos os planos */
