@@ -899,6 +899,60 @@ ul { list-style: none; }
     margin: 0 32px 32px;
 }
 
+.plano__price-period {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(198,164,75,0.75);
+    margin-left: 2px;
+}
+.plano__annual {
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.50);
+    margin-top: 8px;
+}
+.plano__desconto {
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--gold);
+    padding: 6px 16px;
+    margin: 0 32px 8px;
+    background: rgba(198,164,75,0.10);
+    border-radius: 100px;
+}
+.plano__desconto--destaque {
+    background: rgba(198,164,75,0.20);
+    color: var(--gold-light);
+}
+
+/* Plano Governos */
+.card--plano-governo {
+    margin-top: 24px;
+    border-color: var(--navy-light);
+    background: var(--navy-dark);
+}
+.plano__governo-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 32px 40px;
+    flex-wrap: wrap;
+}
+.plano__governo-name {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.plano__governo-desc {
+    font-size: 0.92rem;
+    color: rgba(255,255,255,0.65);
+    max-width: 600px;
+    line-height: 1.6;
+}
+.plano__governo-btn { white-space: nowrap; }
+
 .planos__note {
     margin-top: 32px;
     font-size: 0.9rem;
