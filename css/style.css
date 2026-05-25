@@ -895,11 +895,14 @@ ul { list-style: none; }
 }
 .plano__features li:last-child { border-bottom: none; }
 
-.plano__header {
-    flex: 1;
+.plano__footer {
+    margin-top: auto;
+    padding: 16px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .card--plano .btn {
-    margin: 16px 32px 32px;
     display: block;
     text-align: center;
 }
@@ -948,9 +951,9 @@ ul { list-style: none; }
     font-weight: 600;
     color: var(--gold);
     padding: 6px 16px;
-    margin: 0 32px 8px;
     background: rgba(198,164,75,0.10);
     border-radius: 100px;
+    align-self: center;
 }
 .plano__desconto--destaque {
     background: rgba(198,164,75,0.20);
